@@ -1,0 +1,587 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+  
+.contDiv {
+  background: linear-gradient(rgba(41, 40, 40, 0.6), rgba(41, 40, 40, 0.6)),
+    url("../image/team_detail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loading {
+  padding: 2.5vmin;
+  text-align: center;
+}
+.underline {
+  background-color: white;
+  height: 1px;
+}
+.heading {
+  letter-spacing: 0.3175px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.thead {
+  color: #fff;
+  background-color: #09c0f7;
+}
+
+.tbody {
+  color: black;
+}
+.tbody tr {
+  background-color: #fff;
+}
+
+.table th,
+td {
+  text-align: center;
+}
+
+.table {
+  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0 1vmin;
+  font-size: 2vmin;
+  letter-spacing: 0.3175px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.tbody tr:hover {
+  background-color: rgb(235, 232, 232);
+  cursor: pointer;
+}
+
+.pointtableimage {
+  z-index: 100;
+  width: 100%;
+  height: auto;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media screen and (min-width: 1281px) {
+  .pointtableimage {
+    width: 80%;
+    margin-left: 4vw;
+  }
+  .ContTable {
+    padding: 0 !important;
+  }
+  .underline {
+    width: 95.5%;
+    margin-left: 9.5vw;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+  }
+  .heading {
+    margin: 2vh 0 0 9vw;
+    font-size: 3.5vmin;
+  }
+}
+.player--card {
+  background-image: linear-gradient(rgb(213, 211, 211), rgb(213, 211, 211));
+  display: inline-block;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+}
+.card--details {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.card--upperline {
+  height: 1px;
+  background-color: gray;
+  text-align: center;
+}
+.cardHeading--rot {
+  letter-spacing: 0.3175px;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.cardUnderline--rot {
+  background-color: gray;
+  height: 2px;
+  margin-top: 0;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media screen and (min-width: 1281px) {
+  .player--card {
+    width: 17%;
+    height: 45vh;
+    margin-top: 7vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
+  .card--upperline {
+    margin-top: 2.5vmin;
+    height: 2px;
+  }
+  .card--details {
+    margin-left: 2vw;
+    margin-top: 4vh;
+    padding-top: 1vh;
+  }
+  .card--details > h6 {
+    font-size: 2.5vmin;
+    text-align: left;
+  }
+  .card--details > h4 {
+    font-size: 3.3vmin;
+    padding-top: 3vh;
+    text-align: center;
+    margin-left: -2vw;
+  }
+  .cardHeading--rot {
+    font-size: 3.5vmin;
+    transform-origin: 12%;
+    transform: rotateZ(90deg) translateX(-31vw);
+  }
+  .cardUnderline--rot {
+    width: 27.5vh;
+    height: 1.2px;
+    margin-left: 8vw;
+    transform-origin: 12%;
+    transform: rotateZ(90deg) translateX(-1.5vw);
+  }
+  .player--image {
+    width: 50%;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media screen and (min-width: 1025px) and (max-width: 1281px) {
+  .player--card {
+    width: 21%;
+    height: 45vh;
+    margin-top: 7vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
+  .card--upperline {
+    margin-top: 2vmin;
+  }
+  .card--details {
+    margin-left: 2vw;
+    margin-top: 4vh;
+    padding-top: 1vh;
+  }
+  .card--details > h6 {
+    font-size: 2.5vmin;
+    text-align: left;
+  }
+  .card--details > h4 {
+    font-size: 3.3vmin;
+    padding-top: 3vh;
+    text-align: left;
+  }
+  .cardHeading--rot {
+    font-size: 3.5vmin;
+    transform-origin: 12%;
+
+    transform: rotateZ(90deg) translateX(-31vw);
+  }
+  .cardUnderline--rot {
+    width: 20.5vh;
+    height: 1px;
+    margin-left: 8vw;
+    transform-origin: 12%;
+    transform: rotateZ(90deg) translateX(-2.3vw);
+  }
+  .player--image {
+    width: 60%;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .player--card {
+    width: 20%;
+    height: 25vh;
+    margin-top: 10vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
+  .card--details {
+    margin-left: 2vw;
+    margin-top: 0;
+    padding-top: 1vh;
+  }
+  .card--details > h6 {
+    font-size: 2vmin;
+    text-align: left;
+  }
+  .card--details > h4 {
+    font-size: 2.5vmin;
+    padding-top: 2vh;
+    margin-left: -0.3vw;
+    text-align: left;
+  }
+
+  .card--upperline {
+    margin-top: 3vh;
+  }
+  .cardHeading--rot {
+    font-size: 3.5vmin;
+    transform-origin: 12%;
+    margin-left: 1vw;
+    transform: rotateZ(90deg) translateX(-29.5vw);
+  }
+  .cardUnderline--rot {
+    width: 14.8vh;
+    height: 1px;
+    margin-left: 7.9vw;
+    transform-origin: 12%;
+    transform: rotateZ(90deg) translateX(-2.3vh);
+  }
+  .player--image {
+    width: 50%;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .player--card {
+    width: 21%;
+    height: 45vh;
+    margin-top: 7vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
+  .card--details {
+    margin-left: 2vw;
+    margin-top: 4vh;
+    padding-top: 1vh;
+  }
+  .card--details > h6 {
+    font-size: 2.5vmin;
+    text-align: left;
+  }
+  .card--details > h4 {
+    font-size: 3.3vmin;
+    padding-top: 3vh;
+    text-align: left;
+  }
+  .cardHeading--rot {
+    font-size: 3.5vmin;
+    transform-origin: 12%;
+
+    transform: rotateZ(90deg) translateX(-31vw);
+  }
+  .cardUnderline--rot {
+    width: 20.5vh;
+    height: 1px;
+    margin-left: 8vw;
+    transform-origin: 12%;
+    transform: rotateZ(90deg) translateX(-2.3vw);
+  }
+  .player--image {
+    width: 60%;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .player--card {
+    width: 20%;
+    height: 48vh;
+    margin-top: 7vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
+  .card--details {
+    margin-left: 2vw;
+    margin-top: 4vh;
+    padding-top: 1vh;
+  }
+  .card--details > h6 {
+    font-size: 2.5vmin;
+    text-align: left;
+  }
+  .card--details > h4 {
+    font-size: 3.5vmin;
+    padding-top: 1vh;
+    margin-left: 1vw;
+    text-align: left;
+  }
+
+  .cardHeading--rot {
+    font-size: 5vmin;
+    transform-origin: 12%;
+    transform: rotateZ(90deg) translateX(-30vw);
+  }
+  .cardUnderline--rot {
+    width: 20vw;
+    height: 1px;
+    margin-left: 7.5vw;
+    transform-origin: 12%;
+    transform: rotateZ(90deg) translateX(-2.5vw);
+  }
+  .player--image {
+    width: 50%;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .player--card {
+    width: 25%;
+    margin-top: 3.9vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
+  .card--details {
+    margin-left: 2vw;
+    padding-top: 1vh;
+  }
+  .card--details > h6 {
+    font-size: 2.5vmin;
+    text-align: left;
+  }
+  .card--details > h4 {
+    font-size: 3.5vmin;
+    padding-top: 1vh;
+    margin-left: -2.5vw;
+    text-align: center;
+  }
+  .cardHeading--rot {
+    font-size: 5vmin;
+    margin: 2vh 0 0 0vw;
+  }
+  .cardUnderline--rot {
+    width: 28vw;
+    height: 1px;
+    margin-left: 35.6vw;
+  }
+  .player--image {
+    width: 18vmin;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media screen and (min-width: 1025px) and (max-width: 1281px) {
+  .pointtableimage {
+    width: 90%;
+    margin-left: 2.5vw;
+    margin-top: 2.5vh;
+  }
+  .ContTable {
+    padding: 0 !important;
+  }
+  .underline {
+    width: 95%;
+    margin-left: 9vw;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+  }
+  .heading {
+    margin: 2vh 0 0 9vw;
+    font-size: 3.5vmin;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .pointtableimage {
+    width: 95%;
+    margin-left: 2.5vw;
+    margin-top: 2.5vh;
+  }
+  .ContTable {
+    padding: 0 !important;
+  }
+  .underline {
+    width: 99%;
+    margin-left: 9vw;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+  }
+  .heading {
+    margin: 2vh 0 0 9vw;
+    font-size: 3.5vmin;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .pointtableimage {
+    width: 95%;
+    margin-left: 2.5vw;
+    margin-top: 2.5vh;
+  }
+  .ContTable {
+    padding: 0 !important;
+  }
+  .underline {
+    width: 99%;
+    margin-left: 9vw;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+  }
+  .heading {
+    margin: 2vh 0 0 9vw;
+    font-size: 3.5vmin;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .cricketer--image {
+    display: none;
+  }
+
+  .heading {
+    font-size: 5vmin;
+    transform-origin: 12%;
+    margin-left: 10vw;
+    transform: rotateZ(90deg) translateX(1.7vw);
+  }
+  .underline {
+    width: 20vw;
+    margin-left: 8vw;
+    transform-origin: 12%;
+    transform: rotateZ(90deg) translateX(-1.8vw);
+  }
+
+  .table {
+    font-size: 2.5vmin;
+    margin-left: 2vw;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .cricketer--image {
+    display: none;
+  }
+  .underline {
+    background-color: white;
+    height: 1px;
+    width: 30%;
+    margin-left: 7vw;
+    margin-bottom: 1vh;
+    margin-top: 1%;
+  }
+  .heading {
+    margin: 2vh 0 0 3vw;
+    font-size: 5vmin;
+  }
+
+  .table {
+    font-size: 2.5vmin;
+    margin-left: 2vw;
+  }
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #9575CD;
+  color: floralwhite;
+}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+.navbar-dark {
+  background-color: #512DA8;
+}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.carousel {
+  background: #512DA8;
+}
+.carousel .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+.modal-header {
+  background: #512DA8;
+  color: #fffaf0;
+}
+.modal-header .cls-btn {
+  color: #fffaf0;
+}
+.modal-body {
+  background: #D1C4E9;
+}
